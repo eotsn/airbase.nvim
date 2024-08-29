@@ -1,7 +1,7 @@
 (macro expand-palette [palette]
   (collect [k v (pairs palette)]
-	    (tostring k)
-      (or (?. palette v) v)))
+	  (tostring k)
+    (or (?. palette v) v)))
 
 (expand-palette
   {
@@ -406,7 +406,7 @@
 
 ;;;; Heading mappings
 
-    :fg-heading-0 :cyan-cool
+    :fg-heading-0 :cyan-cooler
     :fg-heading-1 :fg-main
     :fg-heading-2 :yellow-faint
     :fg-heading-3 :fg-alt
